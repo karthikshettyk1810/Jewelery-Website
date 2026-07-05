@@ -1,0 +1,31 @@
+Build a visually stunning, single-page (or multi-section scrollable) frontend-only e-commerce website for a luxury jewelry brand called "[Your Brand Name]" — positioned as "affordable luxury": delicate, high-end looking jewelry (rings, necklaces, earrings, bracelets) at accessible prices. This is a UI/UX prototype only — no backend, no real payment processing, no database. Use dummy/mock product data (JSON array in the frontend) and simulate cart and checkout flows purely with client-side state.
+Tech stack: React + Tailwind CSS (or plain HTML/CSS/JS if simpler). Fully responsive (mobile, tablet, desktop).
+Brand aesthetic:
+
+Color palette: warm gold/champagne accents, deep black or charcoal, soft cream/ivory backgrounds — think elegant, minimal, boutique jewelry store, not flashy or cluttered.
+Typography: an elegant serif font for headings (e.g., Playfair Display, Cormorant) paired with a clean modern sans-serif for body text (e.g., Inter, Lato).
+Generous white space, soft shadows, subtle gold-foil style dividers or accents.
+Smooth micro-interactions: fade-ins on scroll, hover zoom on product images, subtle button transitions — nothing gimmicky, keep it tasteful and premium.
+
+Sections needed:
+
+Sticky navbar — logo, nav links (Home, Collections, About, Contact), search icon, wishlist icon, cart icon with item-count badge.
+Hero section — full-width high-quality jewelry image/banner, tagline emphasizing "delicate luxury, affordable prices," a primary CTA button ("Shop Collection").
+Featured Collections — 3–4 category cards (Rings, Necklaces, Earrings, Bracelets) with elegant hover effects.
+Product Grid / Shop section — dummy product cards (image, name, price, "Add to Cart" button, small "New" or "Bestseller" tag where relevant). Include at least 8–10 mock products.
+Product Detail view/modal — clicking a product opens a detail view with larger image, description, price, quantity selector, and "Add to Cart."
+Why Choose Us / Value Props — icons + short text on things like "Certified Materials," "Affordable Pricing," "Handcrafted Detail," "Free Shipping."
+Cart drawer/page (UI only) — slide-in cart panel showing added items, quantity adjust, subtotal, and a "Checkout" button.
+Checkout flow (UI only, no real processing) — simple mock steps (shipping info → payment info form → order summary/confirmation), all client-side, no actual submission logic needed.
+Testimonials/Reviews — 3–4 elegant customer quote cards.
+Newsletter signup banner — minimal email capture UI.
+Footer — brand info, quick links, social icons, payment icon placeholders.
+
+Functionality (frontend-only):
+
+Add to cart / remove from cart / update quantity using React state (or localStorage-free in-memory state).
+Cart badge updates live.
+Smooth scroll navigation between sections.
+Responsive hamburger menu on mobile.
+
+Overall goal: It should feel like a real, high-end jewelry brand's storefront — polished, aspirational, and trustworthy — while clearly communicating "affordable" without looking cheap. Prioritize visual polish and cohesive branding over feature completeness.

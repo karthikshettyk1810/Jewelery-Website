@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "House of Yokshi"
+version = "1.0.0"
+id = "artifacts/house-of-yokshi"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21771
+
+[services.development]
+run = "pnpm --filter @workspace/house-of-yokshi run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/house-of-yokshi", "run", "build" ]
+publicDir = "artifacts/house-of-yokshi/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21771"
+BASE_PATH = "/"

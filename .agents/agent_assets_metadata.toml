@@ -1,0 +1,50 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "dR_uctUrFHX87MqElSsVf"
+uri = "file://artifacts/house-of-yokshi/src/assets/products/ring-diamond.png"
+type = "image"
+title = "Diamond gold ring dark background"
+
+[[generated]]
+id = "xsiApUGiMk0Uq7hhJq4It"
+uri = "file://artifacts/house-of-yokshi/src/assets/products/necklace-pearl.png"
+type = "image"
+title = "Pearl gold necklace dark background"
+
+[[generated]]
+id = "zqFHuYlipj0785xWyOXnQ"
+uri = "file://artifacts/house-of-yokshi/src/assets/products/earrings-hoop.png"
+type = "image"
+title = "Gold hoop earrings dark background"
+
+[[generated]]
+id = "mKoyzskViEzfeBWhScQ2J"
+uri = "file://artifacts/house-of-yokshi/src/assets/products/bracelet-chain.png"
+type = "image"
+title = "Gold chain bracelet dark background"
+
+[[generated]]
+id = "-wFzNtZmYE29YbaKTQxGu"
+uri = "file://artifacts/house-of-yokshi/src/assets/products/ring-signet.png"
+type = "image"
+title = "Gold signet ring dark background"
+
+[[generated]]
+id = "sJl2Apo9JIu6Gnu5FSkte"
+uri = "file://artifacts/house-of-yokshi/src/assets/products/necklace-layered.png"
+type = "image"
+title = "Layered gold necklaces dark background"
+
+[[generated]]
+id = "7q8XKbaB6hDFXr4CE4XyG"
+uri = "file://artifacts/house-of-yokshi/src/assets/products/earrings-stud.png"
+type = "image"
+title = "Gold emerald stud earrings dark"
+
+[[generated]]
+id = "FOhxdexVoMUDsyIeVQkLk"
+uri = "file://artifacts/house-of-yokshi/src/assets/products/bracelet-cuff.png"
+type = "image"
+title = "Gold cuff bracelet dark background"
