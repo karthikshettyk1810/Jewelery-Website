@@ -1,5 +1,5 @@
 import React from "react";
-import logoPng from "@assets/7CF8B355-954C-4ECF-A39D-224B035880FC_1783258234647.PNG";
+import logoPng from "@assets/7CF8B355-954C-4ECF-A39D-224B035880FC_(1)_1783258628670.png";
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
-            <img src={logoPng} alt="House of Yokshi" className="h-16 w-auto mb-6" />
+            <img src={logoPng} alt="House of Yokshi" className="h-28 md:h-32 w-auto mb-6 -ml-2" />
             <p className="text-muted-foreground text-sm max-w-sm font-sans">
               Curated for Your Everyday Style. <br />
               House of Yokshi brings boutique atelier quality directly to you. Accessible luxury jewelry designed to be lived in.
